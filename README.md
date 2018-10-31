@@ -1,5 +1,11 @@
 # Unbeatable tic tac toe
 
+### To play
+`python play_game.py`
+
+#### OOP Version
+* There is also an OOP version- you will lose with this version also, but to try your luck anyways, `cd OOP && play_game.py`
+
 ## Approach
 * In the following numbered order, the conditions are checked. When one of them is `true`, the square under which the `true` condition occurs is returned as the computer's move.
 1. Offensive: check if computer can win in one
@@ -26,5 +32,3 @@ Above, each player has moved twice. First, 'o' moved to the topc enter, 'x' chos
 * Board is represented as a list
 * deepcopy is used to try out different moves
 
-### To play
-`python play_game.py`
